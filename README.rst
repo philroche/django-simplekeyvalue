@@ -7,7 +7,7 @@ Each entry will have an owner which is an instance of an existing model, a key w
 
 Install
 ------------------------------------
-add simplekeyvalue to INSTALLED_APPS and either run `python manage.py syncdb` or `python manage.py migrate simplekeyvalue` if you also have the south app installed.
+add simplekeyvalue to INSTALLED_APPS and either run 'python manage.py syncdb' or 'python manage.py migrate simplekeyvalue' if you also have the south app installed.
 
 Running the Tests
 ------------------------------------
