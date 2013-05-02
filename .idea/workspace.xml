@@ -10,6 +10,7 @@
     <file path="/LICENSE" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367489848553" ignored="false" />
     <file path="/managers.py" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367492747033" ignored="false" />
     <file path="/a.dummy" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367506287268" ignored="false" />
+    <file path="/README.rst" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367507654634" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <file leaf-file-name="README.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="22" selection-start="314" selection-end="314" vertical-scroll-proportion="0.16450648">
               <folding />
             </state>
           </provider>
@@ -109,10 +110,10 @@
         <option value="$PROJECT_DIR$/lockingkeyvalue/models.py" />
         <option value="$PROJECT_DIR$/lockingkeyvalue/managers.py" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
-        <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/lockingkeyvalue/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/runtests.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -423,7 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="22" selection-start="314" selection-end="314" vertical-scroll-proportion="0.16450648">
           <folding />
         </state>
       </provider>
