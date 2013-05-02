@@ -5,6 +5,9 @@ django-simplekeyvalue is a simple key value store for django.
 
 Each entry will have an owner which is an instance of an existing model, a key which is a string and a value which is an integer.
 
+Install
+------------------------------------
+add simplekeyvalue to INSTALLED_APPS and either run `python manage.py syncdb` or `python manage.py migrate simplekeyvalue` if you also have the south app installed.
 
 Running the Tests
 ------------------------------------

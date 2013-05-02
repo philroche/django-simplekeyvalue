@@ -10,7 +10,7 @@
     <file path="/LICENSE" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367489848553" ignored="false" />
     <file path="/managers.py" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367492747033" ignored="false" />
     <file path="/a.dummy" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367506287268" ignored="false" />
-    <file path="/README.rst" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367507654634" ignored="false" />
+    <file path="/README.rst" changelist="01275070-4112-44b1-92b9-b4dfb35bed68" time="1367508077445" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <file leaf-file-name="README.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="314" selection-end="314" vertical-scroll-proportion="0.16450648">
+            <state line="9" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="0.13459621">
               <folding />
             </state>
           </provider>
@@ -424,7 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="314" selection-end="314" vertical-scroll-proportion="0.16450648">
+        <state line="9" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="0.13459621">
           <folding />
         </state>
       </provider>
