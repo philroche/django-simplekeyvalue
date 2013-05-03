@@ -42,11 +42,11 @@ class KeyValueManager(models.Manager):
                 filter_args['co_owner_content_type'] = ContentType.objects.get_for_model(co_owner)
                 filter_args['co_owner_object_id'] = co_owner.id
 
-            qs=self.get_query_set().get(**filter_args)
+            qs=self.get_query_set()
             if select_for_update:
                 qs = qs.select_for_update()
 
-            return qs
+            return qs.get(**filter_args)
         else:
             return self.get_query_set().none()
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/managers.py" afterPath="$PROJECT_DIR$/simplekeyvalue/managers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/models.py" afterPath="$PROJECT_DIR$/simplekeyvalue/models.py" />
     </list>
     <ignored path="simplekeyvalue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +15,7 @@
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/migrations/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367579282101" ignored="false" />
     <file path="/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367579106250" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/lib/management/helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367591878916" ignored="false" />
+    <file path="/a.dummy" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593968118" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="managers.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="managers.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="12" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.0">
+            <state line="47" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.35892323">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -82,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="32" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.5832502">
+            <state line="39" column="32" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -111,8 +111,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/simplekeyvalue/managers.py" />
         <option value="$PROJECT_DIR$/simplekeyvalue/models.py" />
+        <option value="$PROJECT_DIR$/simplekeyvalue/managers.py" />
       </list>
     </option>
   </component>
@@ -389,18 +389,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="12" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.0">
+        <state line="39" column="32" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="32" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.5832502">
+        <state line="47" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.35892323">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
