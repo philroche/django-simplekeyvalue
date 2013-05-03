@@ -22,8 +22,8 @@ class KeyValueManager(models.Manager):
         Get keyvalue instances for a given owner
         and filter with an optional names
         """
-        owner_type = ContentType.objects.get_for_model(owner)
-        filter_args = {'owner_content_type': owner_type,
+
+        filter_args = {'owner_content_type': ContentType.objects.get_for_model(owner),
                        'owner_object_id': owner.id,
                        'key': key}
 
@@ -35,6 +35,7 @@ class KeyValueManager(models.Manager):
 
 
     def set_keyvalue(self, owner, key, value):
+
 
         kwargs = {
             'key': key,
