@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/lockingkeyvalue.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/managers.py" afterPath="$PROJECT_DIR$/simplekeyvalue/managers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/models.py" afterPath="$PROJECT_DIR$/simplekeyvalue/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simplekeyvalue.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367509733838" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367567219091" ignored="false" />
-    <file path="/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367567207581" ignored="false" />
-    <file path="/managers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367510128416" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367579113515" ignored="false" />
+    <file path="/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593022233" ignored="false" />
+    <file path="/managers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593256273" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tickets/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367589196879" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/venues/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593022747" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/migrations/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367579282101" ignored="false" />
+    <file path="/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367579106250" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/lib/management/helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367591878916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +56,10 @@
       <file leaf-file-name="managers.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="24" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="66" column="12" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,11 +73,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/virtualenvs/django-locking-keyvalue-store/lib/python2.6/site-packages/django/db/models/query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="454" column="8" selection-start="17256" selection-end="17256" vertical-scroll-proportion="0.333001">
+            <state line="454" column="8" selection-start="17256" selection-end="17256" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="32" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.5832502">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +112,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/simplekeyvalue/managers.py" />
+        <option value="$PROJECT_DIR$/simplekeyvalue/models.py" />
       </list>
     </option>
   </component>
@@ -355,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="24" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/virtualenvs/django-locking-keyvalue-store/lib/python2.6/site-packages/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="43" selection-start="5435" selection-end="5435" vertical-scroll-proportion="0.0">
@@ -371,8 +377,33 @@
     </entry>
     <entry file="file://$USER_HOME$/virtualenvs/django-locking-keyvalue-store/lib/python2.6/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="8" selection-start="17256" selection-end="17256" vertical-scroll-proportion="0.333001">
+        <state line="454" column="8" selection-start="17256" selection-end="17256" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/migrations/0003_auto__add_field_keyvalue_co_owner_content_type__add_field_keyvalue_co_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="12" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="32" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.5832502">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
