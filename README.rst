@@ -1,9 +1,12 @@
 simplekeyvalue
 ========================
 
-django-simplekeyvalue is a simple key value store for django.
+django-simplekeyvalue is a simple key value store for django inspired by https://github.com/sligodave/django-keyvalue.
 
-Each entry will have an owner which is an instance of an existing model, a key which is a string and a value which is an integer.
+This is a little simpler that django-keyvalue as the value of the keyvalue pair is always an integer.
+It also allows for locking (select_for_update) when updating the values.
+
+Each entry will have an owner (and optional co owner) which is an instance of an existing model, a key which is a string and a value which is an integer.
 
 Install
 ------------------------------------
