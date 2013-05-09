@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/__init__.py" afterPath="$PROJECT_DIR$/simplekeyvalue/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simplekeyvalue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,7 +136,7 @@
       <file leaf-file-name="README.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.3939394">
+            <state line="6" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.09090909">
               <folding />
             </state>
           </provider>
@@ -490,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.3939394">
+        <state line="6" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.09090909">
           <folding />
         </state>
       </provider>
