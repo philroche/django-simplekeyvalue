@@ -39,12 +39,20 @@ class KeyValue(models.Model):
 
     value = models.IntegerField(null=True, blank=True)
 
+    def decrement_value(self):
+        self.value = self.value - 1
+        return
+
+    def increment_value(self):
+        self.value = self.value + 1
+        return
+
     @property
     def owner(self):
         return self.owner_content_object
 
     @property
-    def cp_owner(self):
+    def co_owner(self):
         return self.co_owner_content_object
 
     def __unicode__(self):
