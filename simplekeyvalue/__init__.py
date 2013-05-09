@@ -1,3 +1,3 @@
-"<Include a description of your project>"
+"django-simplekeyvalue is a simple key value store for django"
 
-__version__ = '0.0.0'
+__version__ = '0.0.1'

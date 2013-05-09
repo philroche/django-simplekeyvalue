@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/models.py" afterPath="$PROJECT_DIR$/simplekeyvalue/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/__init__.py" afterPath="$PROJECT_DIR$/simplekeyvalue/__init__.py" />
     </list>
     <ignored path="simplekeyvalue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,13 +82,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="23" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.6729811">
+            <state line="45" column="23" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simplekeyvalue/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.044865403">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplekeyvalue/migrations/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="60" selection-start="41" selection-end="101" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,6 +160,7 @@
       <list>
         <option value="$PROJECT_DIR$/simplekeyvalue/managers.py" />
         <option value="$PROJECT_DIR$/simplekeyvalue/models.py" />
+        <option value="$PROJECT_DIR$/simplekeyvalue/__init__.py" />
       </list>
     </option>
   </component>
@@ -400,10 +448,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.6729811">
+        <state line="45" column="23" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="60" selection-start="41" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.044865403">
+          <folding />
         </state>
       </provider>
     </entry>
