@@ -9,7 +9,10 @@ class Migration(SchemaMigration):
 
     def forwards(self, orm):
         # Removing unique constraint on 'KeyValue', fields ['owner_content_type', 'owner_object_id', 'key']
-        db.delete_unique(u'simplekeyvalue_keyvalue', ['owner_content_type_id', 'owner_object_id', 'key'])
+        try:
+            db.delete_unique(u'simplekeyvalue_keyvalue', ['owner_content_type_id', 'owner_object_id', 'key'])
+        except:
+            pass#doesn't matter if we don't delete this
 
         # Adding field 'KeyValue.co_owner_content_type'
         db.add_column(u'simplekeyvalue_keyvalue', 'co_owner_content_type',
