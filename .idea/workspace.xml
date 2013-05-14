@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="" />
+    <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplekeyvalue/models.py" afterPath="$PROJECT_DIR$/simplekeyvalue/models.py" />
+    </list>
     <ignored path="simplekeyvalue.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368455271621" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368113081165" ignored="false" />
-    <file path="/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368526505589" ignored="false" />
+    <file path="/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368545847720" ignored="false" />
     <file path="/managers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593256273" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tickets/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368526505589" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tickets/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368545851200" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/venues/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593022747" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/migrations/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368455234005" ignored="false" />
     <file path="/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368109685644" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/lib/management/helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367591878916" ignored="false" />
-    <file path="/a.dummy" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368191728319" ignored="false" />
+    <file path="/a.dummy" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368533726371" ignored="false" />
     <file path="/README.rst" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368091407479" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/views.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368094972747" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tests/locust/buy_tickets.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368094972747" ignored="false" />
@@ -33,7 +35,7 @@
     <file path="/base.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368197650800" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tests/selenium/buy_tickets_seated_customer_change_seats.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368182009573" ignored="false" />
     <file path="/test_queued_event.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368445505771" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/django_logs/tix.log" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368184531087" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/django_logs/tix.log" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368543934660" ignored="false" />
     <file path="/0003_auto__add_field_keyvalue_co_owner_content_type__add_field_keyvalue_co_.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368184958749" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/philroche690_conf.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368193295605" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/bigshank_conf.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368197668583" ignored="false" />
@@ -71,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0001_initial.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="0001_initial.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplekeyvalue/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -98,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="23" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+            <state line="45" column="23" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.6729811">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -471,15 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplekeyvalue/managers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="20" selection-start="1939" selection-end="1951" vertical-scroll-proportion="0.0">
@@ -493,6 +486,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplekeyvalue/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="23" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.6729811">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -39,12 +39,13 @@ class KeyValue(models.Model):
 
     value = models.IntegerField(null=True, blank=True)
 
-    def decrement_value(self):
-        self.value = self.value - 1
+    def decrement_value(self, count = 1):
+        self.value = self.value - count
         return
 
-    def increment_value(self):
-        self.value = self.value + 1
+    def increment_value(self, count = 1):
+
+        self.value = self.value + count
         return
 
     @property
