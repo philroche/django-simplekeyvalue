@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplekeyvalue/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplekeyvalue/migrations/0002_auto.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplekeyvalue/migrations/0003_auto__add_field_keyvalue_co_owner_content_type__add_field_keyvalue_co_.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplekeyvalue/migrations/0004_auto__chg_field_keyvalue_value.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c608009d-98b6-4ff0-bf25-ec059df1da0f" name="Default" comment="" />
     <ignored path="simplekeyvalue.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367509733838" ignored="false" />
+    <file path="/Dummy.txt" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368455271621" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368113081165" ignored="false" />
-    <file path="/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368184532620" ignored="false" />
+    <file path="/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368526505589" ignored="false" />
     <file path="/managers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593256273" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tickets/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368184544920" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tickets/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368526505589" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/venues/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367593022747" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/migrations/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368109765606" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/migrations/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368455234005" ignored="false" />
     <file path="/0024_update_ticket_available_metadata.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368109685644" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/lib/management/helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1367591878916" ignored="false" />
     <file path="/a.dummy" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368191728319" ignored="false" />
@@ -29,18 +23,24 @@
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/lib/utils.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368094972747" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tickets/test_helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368094972747" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/lib/__init__.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368094972747" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/base.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368174314763" ignored="false" />
-    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tests/locust/test_queued_event.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368183616788" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/base.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368197651949" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tests/locust/test_queued_event.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368453856623" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/environment/dependencies.txt" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368094986317" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/tests.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368112308282" ignored="false" />
     <file path="/tests.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368111820145" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/events/test_helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368112861636" ignored="false" />
     <file path="/test_helpers.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368112642457" ignored="false" />
-    <file path="/base.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368174265698" ignored="false" />
+    <file path="/base.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368197650800" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/tests/selenium/buy_tickets_seated_customer_change_seats.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368182009573" ignored="false" />
-    <file path="/test_queued_event.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368183623753" ignored="false" />
+    <file path="/test_queued_event.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368445505771" ignored="false" />
     <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/django_logs/tix.log" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368184531087" ignored="false" />
     <file path="/0003_auto__add_field_keyvalue_co_owner_content_type__add_field_keyvalue_co_.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368184958749" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/philroche690_conf.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368193295605" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/bigshank_conf.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368197668583" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/settings/timmy_conf.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368197660428" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/reports/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368444489646" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/customers/models.py" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368444489646" ignored="false" />
+    <file path="$PROJECT_DIR$/../../development/TicketingSystem/trunk/tix/ttusers/templates/home_customer.html" changelist="c608009d-98b6-4ff0-bf25-ec059df1da0f" time="1368444489646" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,13 +338,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="25" width="1606" height="1152" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
