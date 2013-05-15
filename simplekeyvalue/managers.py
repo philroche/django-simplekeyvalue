@@ -13,34 +13,43 @@ class KeyValueManager(models.Manager):
         """
         if owner and key:
             qs = self.get_query_set()
-            filter_args = {'owner_content_type': ContentType.objects.get_for_model(owner),
-                           'owner_object_id': owner.id,
-                           'co_owner_content_type': None,
+            owner_content_type_id = ContentType.objects.get_for_model(owner).id
+            owner_id = owner.id
+            filter_args = {'owner_content_type_id': owner_content_type_id,
+                           'owner_object_id': owner_id,
+                           'co_owner_content_type_id': None,
                            'co_owner_object_id': None,
                            'key': key }
 
             if co_owner:
-                filter_args['co_owner_content_type'] = ContentType.objects.get_for_model(co_owner)
-                filter_args['co_owner_object_id'] = co_owner.id
+                co_owner_content_type_id =ContentType.objects.get_for_model(co_owner).id
+                co_owner_id = co_owner.id
+                filter_args['co_owner_content_type_id'] = co_owner_content_type_id
+                filter_args['co_owner_object_id'] = co_owner_id
 
             return qs.filter(**filter_args).exists()
         else:
             return False
 
     def get_keyvalue(self, owner=None, key=None, co_owner=None, select_for_update=True):
+
         """
         Get keyvalue instances for a given owner
         and filter with an optional names
         """
         if owner and key:
-            filter_args = {'owner_content_type': ContentType.objects.get_for_model(owner),
-                           'owner_object_id': owner.id,
-                           'co_owner_content_type': None,
+            owner_content_type_id = ContentType.objects.get_for_model(owner).id
+            owner_id = owner.id
+            filter_args = {'owner_content_type_id': owner_content_type_id,
+                           'owner_object_id': owner_id,
+                           'co_owner_content_type_id': None,
                            'co_owner_object_id': None,
                            'key': key }
             if co_owner:
-                filter_args['co_owner_content_type'] = ContentType.objects.get_for_model(co_owner)
-                filter_args['co_owner_object_id'] = co_owner.id
+                co_owner_content_type_id =ContentType.objects.get_for_model(co_owner).id
+                co_owner_id = co_owner.id
+                filter_args['co_owner_content_type_id'] = co_owner_content_type_id
+                filter_args['co_owner_object_id'] = co_owner_id
 
             qs=self.get_query_set()
             if select_for_update:
@@ -54,16 +63,20 @@ class KeyValueManager(models.Manager):
     def set_keyvalue(self, owner=None, key=None, value=None, co_owner=None):
 
         if owner and key:
+            owner_content_type_id = ContentType.objects.get_for_model(owner).id
+            owner_id = owner.id
             kwargs = {
                 'key': key,
-                'owner_content_type': ContentType.objects.get_for_model(owner),
-                'owner_object_id': owner.id,
-                'co_owner_content_type': None,
+                'owner_content_type_id': owner_content_type_id,
+                'owner_object_id': owner_id,
+                'co_owner_content_type_id': None,
                 'co_owner_object_id': None
             }
             if co_owner:
-                kwargs['co_owner_content_type'] = ContentType.objects.get_for_model(co_owner)
-                kwargs['co_owner_object_id'] = co_owner.id
+                co_owner_content_type_id =ContentType.objects.get_for_model(co_owner).id
+                co_owner_id = co_owner.id
+                kwargs['co_owner_content_type_id'] = co_owner_content_type_id
+                kwargs['co_owner_object_id'] = co_owner_id
             kv = self.get_or_create(**kwargs)[0]
             kv.value = value
             kv.save()
@@ -75,13 +88,17 @@ class KeyValueManager(models.Manager):
         """
         Delete a list of keyvalue instances for a given user.
         """
-        filter_args = {'owner_content_type': ContentType.objects.get_for_model(owner),
-                           'owner_object_id': owner.id,
-                           'co_owner_content_type': None,
+        owner_content_type_id = ContentType.objects.get_for_model(owner).id
+        owner_id = owner.id
+        filter_args = {'owner_content_type_id': owner_content_type_id,
+                           'owner_object_id': owner_id,
+                           'co_owner_content_type_id': None,
                            'co_owner_object_id': None,
                            'key': key }
         if co_owner:
-            filter_args['co_owner_content_type'] = ContentType.objects.get_for_model(co_owner)
-            filter_args['co_owner_object_id'] = co_owner.id
+            co_owner_content_type_id =ContentType.objects.get_for_model(co_owner).id
+            co_owner_id = co_owner.id
+            filter_args['co_owner_content_type_id'] = co_owner_content_type_id
+            filter_args['co_owner_object_id'] = co_owner_id
 
         return self.get_query_set().filter(**filter_args).delete()
