@@ -16,8 +16,6 @@ add simplekeyvalue to INSTALLED_APPS and either run 'python manage.py syncdb' or
 Running the Tests
 ------------------------------------
 
-!No tests written yet!
-
 You can run the tests with via::
 
     python setup.py test
