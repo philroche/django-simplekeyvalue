@@ -12,7 +12,7 @@ class KeyValueManager(models.Manager):
         keyvalue for all the names provided
         """
         if owner and key:
-            qs = self.get_query_set()
+            qs = self.get_queryset()
             owner_content_type_id = ContentType.objects.get_for_model(owner).id
             owner_id = owner.id
             filter_args = {'owner_content_type_id': owner_content_type_id,
@@ -51,13 +51,13 @@ class KeyValueManager(models.Manager):
                 filter_args['co_owner_content_type_id'] = co_owner_content_type_id
                 filter_args['co_owner_object_id'] = co_owner_id
 
-            qs=self.get_query_set()
+            qs=self.get_queryset()
             if select_for_update:
                 qs = qs.select_for_update()
 
             return qs.get(**filter_args)
         else:
-            return self.get_query_set().none()
+            return self.get_queryset().none()
 
 
     def set_keyvalue(self, owner=None, key=None, value=None, co_owner=None):
@@ -82,7 +82,7 @@ class KeyValueManager(models.Manager):
             kv.save()
             return kv
         else:
-            return self.get_query_set().none()
+            return self.get_queryset().none()
 
     def del_keyvalue(self, owner=None, key=None, co_owner=None):
         """
@@ -101,4 +101,4 @@ class KeyValueManager(models.Manager):
             filter_args['co_owner_content_type_id'] = co_owner_content_type_id
             filter_args['co_owner_object_id'] = co_owner_id
 
-        return self.get_query_set().filter(**filter_args).delete()
+        return self.get_queryset().filter(**filter_args).delete()
