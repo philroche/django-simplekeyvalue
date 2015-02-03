@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.6.8 virtualenv at ~/virtualenvs/django-locking-keyvalue-store" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.4 (/usr/bin/python)" project-jdk-type="Python SDK" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -20,4 +20,3 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
 </project>
-
