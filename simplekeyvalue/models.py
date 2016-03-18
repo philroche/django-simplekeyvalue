@@ -1,8 +1,7 @@
 from django.db import models
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.contenttypes import generic
 
 from .managers import KeyValueManager
+
 # Create your models here.
 
 class KeyValue(models.Model):
